@@ -16,8 +16,18 @@ vim.opt.rtp:prepend(lazypath)
 --
 for _, value in ipairs(
   {
-    "options", "plugins", "keymaps"
+    "core.options", "core.keymaps"
   }
 ) do
   require(value)
 end
+
+--
+-- lazy plugins > setup
+--
+require("lazy").setup({
+  spec = {
+    { import = "plugins" },
+  },
+})
+
