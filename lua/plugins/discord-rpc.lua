@@ -1,10 +1,13 @@
 return {
   {
     "vyfor/cord.nvim",
+    build = ":Cord update",
     event = "VeryLazy",
     config = function() require("cord").setup({
       display = {
-        theme = "minecraft",
+        theme = "catppuccin",
+        flavor = "dark",
+        view =  "asset"
       },
       text = {
         editing = function(opts) return "Working with " .. opts.filename end,
@@ -13,9 +16,12 @@ return {
         dashboard = "AFK",
         file_browser = function(opts) return "Finding something in " .. opts.name end
       },
-      editor = {
-        tooltip = "https://github.com/Mexaas/Mexvim"
-      }
+      buttons = {
+        {
+          label = "Download Mexvim",
+          url = "https://github.com/Mexaas/Mexvim",
+        },
+      },
     })
     end
   },
