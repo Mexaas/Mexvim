@@ -1,5 +1,4 @@
 return {
-  -- treesitter setup
   {
     "nvim-treesitter/nvim-treesitter",
     build = ":TSUpdate",
@@ -16,7 +15,6 @@ return {
     end
   },
   
-  -- language server setup
   {
     "williamboman/mason.nvim",
     dependencies = {
