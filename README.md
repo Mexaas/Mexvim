@@ -18,18 +18,18 @@
 
 Clone repository to your nvim config folder
 ```
-git clone https://github.com/Mexaas/Mexvim ~/.config/nvim
+git clone --depth 1 https://github.com/Mexaas/Mexvim ~/.config/nvim && rm -rf ~/.config/nvim/{.git,assets,README.md}
 ```
 
 If you want to overwrite your old nvim to this config in one-line command
 ```
-rm -rf ~/.config/nvim && git clone https://github.com/Mexaas/Mexvim ~/.config/nvim
+rm -rf ~/.config/nvim && git clone --depth 1 https://github.com/Mexaas/Mexvim ~/.config/nvim && rm -rf ~/.config/nvim/{.git,assets,README.md}
 ```
 
 ## 🔍 Multiple configs
 If you want to have many nvim configs, you can use `NVIM_APPNAME` method. Just clone config in `~/.config/nvim_folder_name` like in the example:
 ```
-git clone https://github.com/Mexaas/Mexvim ~/.config/mexvim
+git clone --depth 1 https://github.com/Mexaas/Mexvim ~/.config/mexvim && rm -rf ~/.config/mexvim/{.git,assets,README.md}
 ```
 Startup
 ```
