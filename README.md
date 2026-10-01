@@ -1,5 +1,3 @@
-![Mexvim](assets/editor.png)
-
 # 📦 Mexvim
 > Minimalistic neovim configuration written in Lua.
 
@@ -72,4 +70,4 @@ NVIM_APPNAME=mexvim nvim
 - 🔗 By default, <LEADER> is a "SPACE". You can change it in `~/.config/your_nvim/lua/core/options.lua` by replacement `vim.g.mapleader = " "`
 </details>
 
-
+![Mexvim](assets/editor.png)
