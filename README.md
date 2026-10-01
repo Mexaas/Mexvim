@@ -77,8 +77,7 @@ NVIM_APPNAME=mexvim nvim
 |Insert mode escape|J + K|
 
 - 🔗 By default, LEADER key is a "SPACE". You can change it in `~/.config/your_nvim/lua/core/options.lua` by replacement `vim.g.mapleader = " "`
-</details>
 
 > These are just the main hotkeys. You can go to lua/plugins/*plugin.lua, and there may be mappings defined there that run together with the plugins. For example, `blink.cmp`
+</details>
 
-![Mexvim](assets/editor.png)
