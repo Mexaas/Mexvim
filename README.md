@@ -3,10 +3,16 @@
 # 📦 Mexvim
 > Minimalistic neovim configuration written in Lua.
 
-<p align="center">
-  <img src="assets/editor2.jpg" width="49%" height="300"/>
-  <img src="assets/editor.png" width="49%" height="300"/>
-</p>
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="assets/editor2.jpg" />
+    </td>
+    <td width="50%" valign="top">
+      <img src="assets/editor.png" />
+    </td>
+  </tr>
+</table>
 
 > [!NOTE]
 > **Work in Progress (WIP)**
