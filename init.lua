@@ -1,6 +1,4 @@
---
 -- lazy.nvim > setup
---
 local lazypath = vim.fn.stdpath "data" .. "/lazy/lazy.nvim"
 
 if not (vim.uv or vim.loop).fs_stat(lazypath) then
@@ -11,9 +9,7 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
---
 -- load modules > setup
---
 for _, value in ipairs(
   {
     "core.options", "core.keymaps"
@@ -22,9 +18,7 @@ for _, value in ipairs(
   require(value)
 end
 
---
 -- lazy plugins > setup
---
 require("lazy").setup({
   spec = {
     { import = "plugins" },
