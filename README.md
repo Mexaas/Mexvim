@@ -1,7 +1,12 @@
-![Snacks](assets/snacks.jpg)
+![Mexvim](assets/logo.jpg)
 
 # 📦 Mexvim
 > Minimalistic neovim configuration written in Lua.
+
+<p align="center">
+  <img src="snacks.jpg" width="49%" />
+  <img src="editor.png" width="49%" />
+</p>
 
 > [!NOTE]
 > **Work in Progress (WIP)**
