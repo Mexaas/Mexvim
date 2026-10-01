@@ -1,5 +1,4 @@
-![dashboard image](assets/dashboard.jpg)
-![dashboard image](assets/editor.jpg)
+![Mexvim](assets/editor.jpg)
 
 # 📦 Mexvim
 > Minimalistic neovim configuration written in Lua.
