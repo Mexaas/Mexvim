@@ -1,4 +1,4 @@
-![Mexvim](assets/snacks.jpg)
+![Snacks](assets/snacks.jpg)
 
 # 📦 Mexvim
 > Minimalistic neovim configuration written in Lua.
