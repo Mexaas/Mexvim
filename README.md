@@ -49,7 +49,6 @@ NVIM_APPNAME=mexvim nvim
 
 <details>
 <summary>Click there to open</summary>
-🔗 By default, <LEADER> is a "SPACE". You can change it in `~/.config/your_nvim/lua/core/options.lua` by replacement `vim.g.mapleader = " "`
 
 | Name | Key |
 |:--------:|:------:|
@@ -69,6 +68,8 @@ NVIM_APPNAME=mexvim nvim
 |Open file explorer|LEADER + E|
 |Save file|LEADER + W|
 |Insert mode escape|J + K|
+
+- 🔗 By default, <LEADER> is a "SPACE". You can change it in `~/.config/your_nvim/lua/core/options.lua` by replacement `vim.g.mapleader = " "`
 </details>
 
 
