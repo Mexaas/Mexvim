@@ -1,4 +1,4 @@
-![Mexvim](assets/editor.jpg)
+![Mexvim](assets/editor.png)
 
 # 📦 Mexvim
 > Minimalistic neovim configuration written in Lua.
