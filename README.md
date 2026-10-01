@@ -4,7 +4,7 @@
 > Minimalistic neovim configuration written in Lua.
 
 <p align="center">
-  <img src="assets/snacks.jpg" width="49%" />
+  <img src="assets/editor2.jpg" width="49%" />
   <img src="assets/editor.png" width="49%" />
 </p>
 
