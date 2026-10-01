@@ -43,7 +43,7 @@ NVIM_APPNAME=mexvim nvim
 - Easy colorscheme switching
 - Maximum performance & keymaps customization
 
-## 💻 Default hotkeys
+## 💻 General hotkeys
 
 <details>
 <summary>Click there to open</summary>
@@ -62,6 +62,8 @@ NVIM_APPNAME=mexvim nvim
 |Window resize down|CTRL + J|
 |Window resize up|CTRL + K|
 |Window resize right|CTRL + L|
+|Highlighted code move to right|TAB|
+|Highlighted code move to left|SHIFT + TAB|
 |Back to dashboard|LEADER + H|
 |Open file explorer|LEADER + E|
 |Save file|LEADER + W|
@@ -69,5 +71,7 @@ NVIM_APPNAME=mexvim nvim
 
 - 🔗 By default, <LEADER> is a "SPACE". You can change it in `~/.config/your_nvim/lua/core/options.lua` by replacement `vim.g.mapleader = " "`
 </details>
+
+> These are just the main hotkeys. You can go to lua/plugins/*plugin.lua, and there may be mappings defined there that run together with the plugins. For example, `blink.cmp`
 
 ![Mexvim](assets/editor.png)
