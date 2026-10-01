@@ -20,7 +20,7 @@ key("v", "<Tab>", ">gv", { desc = "Move text to right with TAB" })
 key("v", "<S-Tab>", "<gv", { desc = "Move text to left with TAB" })
 
 key("n", "<leader>h", function() Snacks.dashboard() end, { desc = "Back to dasboard" })
-key("n", "<leader>e", "<cmd>NvimTreeToggle<cr>", { desc = "File browser open" })
+key("n", "<leader>e", "<cmd>Neotree<cr>", { desc = "File browser open" })
 key("n", "<leader>w", "<cmd>write<cr>", { desc = "Save file" })
 
 key("i", "jk", "<Esc>", { desc = "Insert mode escap" })
