@@ -1,11 +1,23 @@
 return {
   {
+    "echasnovski/mini.icons",
+    lazy = true,
+    config = function()
+      local plugin = require("mini.icons")
+      plugin.setup({
+        style = "glyph"
+      })
+      plugin.mock_nvim_web_devicons()
+    end
+  },
+
+  {
     "nvim-neo-tree/neo-tree.nvim",
     branch = "v3.x",
     dependencies = {
       "nvim-lua/plenary.nvim",
       "MunifTanjim/nui.nvim",
-      "nvim-tree/nvim-web-devicons",
+      "echasnovski/mini.icons",
     },
     lazy = false,
     config = function()
@@ -25,8 +37,14 @@ return {
       window = {
         mappings = {
           ["l"] = "open",
-          ["k"] = "close"
+          ["h"] = "close_node"
         }
+      },
+      filesystem = {
+        use_libuv_file_watcher = true,
+        filtered_items = {
+          hide_dotfiles = false
+        },
       }
     })
     end
